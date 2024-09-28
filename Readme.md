@@ -1,9 +1,9 @@
-# Decentralized Lucky Draw
+# Decentralized Raffle System
 [![My Skills](https://skillicons.dev/icons?i=solidity)](https://skillicons.dev)  [![Ethereum](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/50px-Ethereum-icon-purple.svg.png)](https://ethereum.org)
 
 ## Introduction
 
-**Decentralized Lucky Draw** is a blockchain-based smart contract built on Ethereum using Solidity. This contract allows users to participate in a decentralized Lucky Draw ticket-purchasing system, where users (buyers) can buy tickets, and an organizer can later draw a winner at random. The winner is granted the ability to withdraw the total collected Ether.
+**Decentralized Raffle System** is a blockchain-based smart contract built on Ethereum using Solidity. This contract allows users to participate in a decentralized raffle ticket-purchasing system, where users (buyers) can buy tickets, and an organizer can later draw a winner at random. The winner is granted the ability to withdraw the total collected Ether.
 
 The contract demonstrates key features like:
 - Role-based access control (organizers vs. buyers).
@@ -49,7 +49,7 @@ This project is a simple and secure solution for decentralized raffle systems, e
 ### Prerequisites
 
 - **Remix IDE**: The contract is designed to be deployed and tested using [Remix](https://remix.ethereum.org/).
-  ## OR
+## OR 
 - **MetaMask**: Install and configure [MetaMask](https://metamask.io/) to connect to the Ethereum test network.
 - **Test Ether**: Use a faucet to get test Ether on your chosen network (Ropsten, Rinkeby, etc.).
 
@@ -74,7 +74,7 @@ This project is a simple and secure solution for decentralized raffle systems, e
 
 5. **Deploy the Contract**:  
    - Go to the `Deploy & Run Transactions` tab.
-   - Click on `Deploy`
+   - Click on `Deploy`.
 
 6. **Assign Roles**:  
    - Use the `AssignRole` function to assign `ORGANIZER` to your address and assign other users as `BUYER`.
