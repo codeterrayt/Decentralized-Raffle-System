@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract LuckyDraw {
+contract RaffleSystem {
 
     uint private NoOfTicketSold = 0;
     uint private MaxNoOfTickets = 2;
