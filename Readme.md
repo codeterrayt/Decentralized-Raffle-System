@@ -58,7 +58,7 @@ This project is a simple and secure solution for decentralized raffle systems, e
 1. **Clone the Repository**:  
    Clone the GitHub repository where the smart contract is stored:
    ```bash
-   git clone https://github.com/codeterrayt/LuckyDraw-BlockChain-Solidity.git
+   git clone https://github.com/codeterrayt/Decentralized-Raffle-System.git
    ```
 
 2. **Open Remix IDE**:  
